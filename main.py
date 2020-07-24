@@ -91,15 +91,15 @@ while running:
 
             if A1.collidepoint(position) and A1open:
                 if object == 'cross':
-                    line(window, (45, 45, 45), (0+10, 0+10), (width/3-10, height/3-10), lineth3)
-                    line(window, (45, 45, 45), (width/3-10, 0+10), (0+10, height/3-10), lineth3)
+                    line(window, (45, 45, 45), (0+10, 0+10), (width/3-10, height/3-10), lineth2)
+                    line(window, (45, 45, 45), (width/3-10, 0+10), (0+10, height/3-10), lineth2)
                     object = 'circle'
                     A1open = False
                     A1taken = 'cross'
                     pygame.display.update()
                 else:
                     if object == 'circle':
-                        circle(window, (45, 45, 45), (int(width/3/2), int(width/3/2)), rad, lineth3)
+                        circle(window, (45, 45, 45), (int(width/3/2), int(width/3/2)), rad, lineth2)
                         object = 'cross'
                         A1open = False
                         A1taken = 'circle'
@@ -107,15 +107,15 @@ while running:
 
             if A2.collidepoint(position) and A2open:
                 if object == 'cross':
-                    line(window, (45, 45, 45), (0+10, width/3+10), (width/3-10, height/3*2-10), lineth3)
-                    line(window, (45, 45, 45), (0+10, height/3*2-10), (width/3-10, height/3+10), lineth3)
+                    line(window, (45, 45, 45), (0+10, width/3+10), (width/3-10, height/3*2-10), lineth2)
+                    line(window, (45, 45, 45), (0+10, height/3*2-10), (width/3-10, height/3+10), lineth2)
                     object = 'circle'
                     A2open = False
                     A2taken = 'cross'
                     pygame.display.update()
                 else:
                     if object == 'circle':
-                        circle(window, (45, 45, 45), (int(width/3/2), int(width/3+width/3/2)), rad, lineth3)
+                        circle(window, (45, 45, 45), (int(width/3/2), int(width/3+width/3/2)), rad, lineth2)
                         object = 'cross'
                         A2open = False
                         A2taken = 'circle'
@@ -123,15 +123,15 @@ while running:
 
             if A3.collidepoint(position) and A3open:
                 if object == 'cross':
-                    line(window, (45, 45, 45), (0+10, width/3*2+10), (width/3-10, height-10), lineth3)
-                    line(window, (45, 45, 45), (0+10, height-10), (width/3-10, height/3*2+10), lineth3)
+                    line(window, (45, 45, 45), (0+10, width/3*2+10), (width/3-10, height-10), lineth2)
+                    line(window, (45, 45, 45), (0+10, height-10), (width/3-10, height/3*2+10), lineth2)
                     object = 'circle'
                     A3open = False
                     A3taken = 'cross'
                     pygame.display.update()
                 else:
                     if object == 'circle':
-                        circle(window, (45, 45, 45), (int(width/3/2), int(width-width/3/2)), rad, lineth3)
+                        circle(window, (45, 45, 45), (int(width/3/2), int(width-width/3/2)), rad, lineth2)
                         object = 'cross'
                         A3open = False
                         A3taken = 'circle'
@@ -139,15 +139,15 @@ while running:
 
             if B1.collidepoint(position) and B1open:
                 if object == 'cross':
-                    line(window, (45, 45, 45), (width/3+10, 0+10), (width/3*2-10, height/3-10), lineth3)
-                    line(window, (45, 45, 45), (width/3+10, height/3-10), (width/3*2-10, 0+10), lineth3)
+                    line(window, (45, 45, 45), (width/3+10, 0+10), (width/3*2-10, height/3-10), lineth2)
+                    line(window, (45, 45, 45), (width/3+10, height/3-10), (width/3*2-10, 0+10), lineth2)
                     object = 'circle'
                     B1open = False
                     B1taken = 'cross'
                     pygame.display.update()
                 else:
                     if object == 'circle':
-                        circle(window, (45, 45, 45), (int(width/2), int(width/3/2)), rad, lineth3)
+                        circle(window, (45, 45, 45), (int(width/2), int(width/3/2)), rad, lineth2)
                         object = 'cross'
                         B1open = False
                         B1taken = 'circle'
@@ -155,15 +155,15 @@ while running:
 
             if B2.collidepoint(position) and B2open:
                 if object == 'cross':
-                    line(window, (45, 45, 45), (width/3+10, height/3+10), (width/3*2-10, height/3*2-10), lineth3)
-                    line(window, (45, 45, 45), (width/3+10, height/3*2-10), (width/3*2-10, height/3+10), lineth3)
+                    line(window, (45, 45, 45), (width/3+10, height/3+10), (width/3*2-10, height/3*2-10), lineth2)
+                    line(window, (45, 45, 45), (width/3+10, height/3*2-10), (width/3*2-10, height/3+10), lineth2)
                     object = 'circle'
                     B2open = False
                     B2taken = 'cross'
                     pygame.display.update()
                 else:
                     if object == 'circle':
-                        circle(window, (45, 45, 45), (int(width/2), int(width/2)), rad, lineth3)
+                        circle(window, (45, 45, 45), (int(width/2), int(width/2)), rad, lineth2)
                         object = 'cross'
                         B2open = False
                         B2taken = 'circle'
@@ -171,15 +171,15 @@ while running:
 
             if B3.collidepoint(position) and B3open:
                 if object == 'cross':
-                    line(window, (45, 45, 45), (width/3+10, height-10), (width/3*2-10, height/3*2+10), lineth3)
-                    line(window, (45, 45, 45), (width/3+10, height/3*2+10), (width/3*2-10, height-10), lineth3)
+                    line(window, (45, 45, 45), (width/3+10, height-10), (width/3*2-10, height/3*2+10), lineth2)
+                    line(window, (45, 45, 45), (width/3+10, height/3*2+10), (width/3*2-10, height-10), lineth2)
                     object = 'circle'
                     B3open = False
                     B3taken = 'cross'
                     pygame.display.update()
                 else:
                     if object == 'circle':
-                        circle(window, (45, 45, 45), (int(width/2), int(width/3/2*2+width/2)), rad, lineth3)
+                        circle(window, (45, 45, 45), (int(width/2), int(width/3/2*2+width/2)), rad, lineth2)
                         object = 'cross'
                         B3open = False
                         B3taken = 'circle'
@@ -187,15 +187,15 @@ while running:
 
             if C1.collidepoint(position) and C1open:
                 if object == 'cross':
-                    line(window, (45, 45, 45), (width/3*2+10, 0+10), (width-10, height/3-10), lineth3)
-                    line(window, (45, 45, 45), (width/3*2+10, height/3-10), (height-10, 0+10), lineth3)
+                    line(window, (45, 45, 45), (width/3*2+10, 0+10), (width-10, height/3-10), lineth2)
+                    line(window, (45, 45, 45), (width/3*2+10, height/3-10), (height-10, 0+10), lineth2)
                     object = 'circle'
                     C1open = False
                     C1taken = 'cross'
                     pygame.display.update()
                 else:
                     if object == 'circle':
-                        circle(window, (45, 45, 45), (int(width/3*2+width/3/2), int(width/3/2)), rad, lineth3)
+                        circle(window, (45, 45, 45), (int(width/3*2+width/3/2), int(width/3/2)), rad, lineth2)
                         object = 'cross'
                         C1open = False
                         C1taken = 'circle'
@@ -203,15 +203,15 @@ while running:
 
             if C2.collidepoint(position) and C2open:
                 if object == 'cross':
-                    line(window, (45, 45, 45), (width/3*2+10, height/3+10), (width-10, height/3*2-10), lineth3)
-                    line(window, (45, 45, 45), (width/3*2+10, height/3*2-10), (width-10, height/3+10), lineth3)
+                    line(window, (45, 45, 45), (width/3*2+10, height/3+10), (width-10, height/3*2-10), lineth2)
+                    line(window, (45, 45, 45), (width/3*2+10, height/3*2-10), (width-10, height/3+10), lineth2)
                     object = 'circle'
                     C2open = False
                     C2taken = 'cross'
                     pygame.display.update()
                 else:
                     if object == 'circle':
-                        circle(window, (45, 45, 45), (int(width/3*2+width/3/2), int(width/2)), rad, lineth3)
+                        circle(window, (45, 45, 45), (int(width/3*2+width/3/2), int(width/2)), rad, lineth2)
                         object = 'cross'
                         C2open = False
                         C2taken = 'circle'
@@ -219,15 +219,15 @@ while running:
 
             if C3.collidepoint(position) and C3open:
                 if object == 'cross':
-                    line(window, (45, 45, 45), (width/3*2+10, height/3*2+10), (width-10, height-10), lineth3)
-                    line(window, (45, 45, 45), (width/3*2+10, height-10), (width-10, height/3*2+10), lineth3)
+                    line(window, (45, 45, 45), (width/3*2+10, height/3*2+10), (width-10, height-10), lineth2)
+                    line(window, (45, 45, 45), (width/3*2+10, height-10), (width-10, height/3*2+10), lineth2)
                     object = 'circle'
                     C3open = False
                     C3taken = 'cross'
                     pygame.display.update()
                 else:
                     if object == 'circle':
-                        circle(window, (45, 45, 45), (int(width-width/3/2), int(width-width/3/2)), rad, lineth3)
+                        circle(window, (45, 45, 45), (int(width-width/3/2), int(width-width/3/2)), rad, lineth2)
                         object = 'cross'
                         C3open = False
                         C3taken = 'circle'
@@ -237,86 +237,86 @@ while running:
 
             if B1taken == A1taken:
                 if C1taken == A1taken:
-                    line(window, (45, 45, 45), (width/3/2/2, height/3/2), (width-width/3/2/2, height/3/2), lineth4)
+                    line(window, (45, 45, 45), (width/3/2/2, height/3/2), (width-width/3/2/2, height/3/2), lineth3)
                     pygame.display.update()
 
             if A2taken == A1taken:
                 if A3taken == A1taken:
-                    line(window, (45, 45, 45), (width/3/2, height/3/2/2), (width/3/2, height-height/3/2/2), lineth4)
+                    line(window, (45, 45, 45), (width/3/2, height/3/2/2), (width/3/2, height-height/3/2/2), lineth3)
                     pygame.display.update()
 
         if C3taken == 'circle':
 
             if B3taken == C3taken:
                 if A3taken == C3taken:
-                    line(window, (45, 45, 45), (width-width/3/2/2, height-height/3/2), (width/3/2/2, height-height/3/2), lineth4)
+                    line(window, (45, 45, 45), (width-width/3/2/2, height-height/3/2), (width/3/2/2, height-height/3/2), lineth3)
                     pygame.display.update()
             if C2taken == C3taken:
                 if C1taken == C3taken:
-                    line(window, (45, 45, 45), (width-width/3/2, height/3/2/2), (width-width/3/2, height-height/3/2/2), lineth4)
+                    line(window, (45, 45, 45), (width-width/3/2, height/3/2/2), (width-width/3/2, height-height/3/2/2), lineth3)
                     pygame.display.update()
 
         if B2taken == 'circle':
             if A2taken == B2taken:
                 if C2taken == B2taken:
-                    line(window, (45, 45, 45), (width/3/2/2, height/2), (width-width/3/2/2, height/2), lineth4)
+                    line(window, (45, 45, 45), (width/3/2/2, height/2), (width-width/3/2/2, height/2), lineth3)
                     pygame.display.update()
 
             if B1taken == B2taken:
                 if B3taken == B2taken:
-                    line(window, (45, 45, 45), (width/2, height/3/2/2), (width/2, height-height/3/2/2), lineth4)
+                    line(window, (45, 45, 45), (width/2, height/3/2/2), (width/2, height-height/3/2/2), lineth3)
                     pygame.display.update()
 
             if A1taken == B2taken:
                 if C3taken == B2taken:
-                    line(window, (45, 45, 45), (width/3/2/2, height/3/2/2), (width-width/3/2/2, height-height/3/2/2), lineth4)
+                    line(window, (45, 45, 45), (width/3/2/2, height/3/2/2), (width-width/3/2/2, height-height/3/2/2), lineth3)
                     pygame.display.update()
 
             if A3taken == B2taken:
                 if C1taken == B2taken:
-                    line(window, (45, 45, 45), (width/3/2/2, height-height/3/2/2), (width-width/3/2/2, height/3/2/2), lineth4)
+                    line(window, (45, 45, 45), (width/3/2/2, height-height/3/2/2), (width-width/3/2/2, height/3/2/2), lineth3)
                     pygame.display.update()
 
         if A1taken == 'cross':
 
             if B1taken == A1taken:
                 if C1taken == A1taken:
-                    line(window, (45, 45, 45), (width/3/2/2, height/3/2), (width-width/3/2/2, height/3/2), lineth4)
+                    line(window, (45, 45, 45), (width/3/2/2, height/3/2), (width-width/3/2/2, height/3/2), lineth3)
                     pygame.display.update()
 
             if A2taken == A1taken:
                 if A3taken == A1taken:
-                    line(window, (45, 45, 45), (width/3/2, height/3/2/2), (width/3/2, height-height/3/2/2), lineth4)
+                    line(window, (45, 45, 45), (width/3/2, height/3/2/2), (width/3/2, height-height/3/2/2), lineth3)
                     pygame.display.update()
 
         if C3taken == 'cross':
 
             if B3taken == C3taken:
                 if A3taken == C3taken:
-                    line(window, (45, 45, 45), (width-width/3/2/2, height-height/3/2), (width/3/2/2, height-height/3/2), lineth4)
+                    line(window, (45, 45, 45), (width-width/3/2/2, height-height/3/2), (width/3/2/2, height-height/3/2), lineth3)
                     pygame.display.update()
             if C2taken == C3taken:
                 if C1taken == C3taken:
-                    line(window, (45, 45, 45), (width-width/3/2, height/3/2/2), (width-width/3/2, height-height/3/2/2), lineth4)
+                    line(window, (45, 45, 45), (width-width/3/2, height/3/2/2), (width-width/3/2, height-height/3/2/2), lineth3)
                     pygame.display.update()
 
         if B2taken == 'cross':
             if A2taken == B2taken:
                 if C2taken == B2taken:
-                    line(window, (45, 45, 45), (width/3/2/2, height/2), (width-width/3/2/2, height/2), lineth4)
+                    line(window, (45, 45, 45), (width/3/2/2, height/2), (width-width/3/2/2, height/2), lineth3)
                     pygame.display.update()
 
             if B1taken == B2taken:
                 if B3taken == B2taken:
-                    line(window, (45, 45, 45), (width/2, height/3/2/2), (width/2, height-height/3/2/2), lineth4)
+                    line(window, (45, 45, 45), (width/2, height/3/2/2), (width/2, height-height/3/2/2), lineth3)
                     pygame.display.update()
 
             if A1taken == B2taken:
                 if C3taken == B2taken:
-                    line(window, (45, 45, 45), (width/3/2/2, height/3/2/2), (width-width/3/2/2, height-height/3/2/2), lineth4)
+                    line(window, (45, 45, 45), (width/3/2/2, height/3/2/2), (width-width/3/2/2, height-height/3/2/2), lineth3)
                     pygame.display.update()
 
             if A3taken == B2taken:
                 if C1taken == B2taken:
-                    line(window, (45, 45, 45), (width/3/2/2, height-height/3/2/2), (width-width/3/2/2, height/3/2/2), lineth4)
+                    line(window, (45, 45, 45), (width/3/2/2, height-height/3/2/2), (width-width/3/2/2, height/3/2/2), lineth3)
                     pygame.display.update()
