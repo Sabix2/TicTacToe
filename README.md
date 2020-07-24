@@ -7,12 +7,14 @@ Window size
 You can change the size of the window by giving the width a different value.
 Works fine with 100 or higher.
 
+
 linethickness
 
 You can change the thickness of the lines by giving lineth1-4 different values.
 lineth1 is used for the grid.
 lineth2 is used for the X and O.
 lineth3 is used for the line that tells if a player won.
+
 
 radius
 
